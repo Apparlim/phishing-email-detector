@@ -146,7 +146,8 @@ python -m pytest tests/
 python -m pytest --cov=phishing_detector tests/
 ```
 ## Screenshot
-<img width="573" height="311" alt="{28FAF4FB-D474-4BA0-BF2B-7E7B8D8050AB}" src="https://github.com/user-attachments/assets/f31295a5-7d32-4260-99a4-eda9ee8ce954" />
+<img width="452" height="373" alt="{A0C85D14-DD0F-404A-889F-A816466591A1}" src="https://github.com/user-attachments/assets/7dad877c-70a2-4c0e-b0af-ab5ee9ff4959" />
+
 
 ## Contributing
 
