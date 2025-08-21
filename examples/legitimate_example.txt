@@ -1,0 +1,28 @@
+newsletter@medium.com
+Your Weekly Medium Digest
+Hi there,
+
+Here are this week's top stories based on your reading history:
+
+1. "Building Scalable Systems with Microservices"
+   By Jane Smith - 8 min read
+   Learn how companies are adopting microservices architecture...
+
+2. "The Future of AI in Healthcare" 
+   By Dr. John Davis - 12 min read
+   Exploring how artificial intelligence is revolutionizing medical diagnosis...
+
+3. "Remote Work Best Practices for 2025"
+   By Sarah Johnson - 6 min read
+   Tips and strategies for effective remote collaboration...
+
+Keep reading at https://medium.com
+
+You're receiving this email because you signed up for Medium's weekly digest. 
+To update your email preferences, visit: https://medium.com/me/settings
+
+Happy reading!
+The Medium Team
+
+Medium
+548 Market St, San Francisco, CA 94104

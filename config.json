@@ -1,0 +1,39 @@
+{
+  "model": "gpt-4",
+  "temperature": 0.3,
+  "max_tokens": 500,
+  "risk_thresholds": {
+    "low": 30,
+    "medium": 60,
+    "high": 85
+  },
+  "analysis_settings": {
+    "check_sender_spoofing": true,
+    "check_urls": true,
+    "check_attachments": true,
+    "check_urgency": true,
+    "check_grammar": true
+  },
+  "url_validation": {
+    "check_shorteners": true,
+    "check_ip_addresses": true,
+    "check_homographs": true,
+    "check_suspicious_tlds": true
+  },
+  "scoring_weights": {
+    "gpt_analysis": 0.4,
+    "pattern_matching": 0.25,
+    "url_suspicious": 0.2,
+    "sender_trust": 0.15
+  },
+  "cache_settings": {
+    "enabled": true,
+    "ttl_seconds": 3600,
+    "max_size": 1000
+  },
+  "batch_processing": {
+    "max_batch_size": 100,
+    "parallel_workers": 4,
+    "timeout_seconds": 30
+  }
+}

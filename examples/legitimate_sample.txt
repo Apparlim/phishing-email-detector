@@ -1,0 +1,32 @@
+security-alert@amaz0n-notification.com
+URGENT: Suspicious Activity Detected on Your Account
+Dear Valued Customer,
+
+We have detected unusual activity on your Amazon account from an unrecognized device.
+
+IMMEDIATE ACTION REQUIRED:
+Your account will be SUSPENDED within 24 hours unless you verify your identity.
+
+Click here to secure your account: http://bit.ly/amz-verify-2024
+
+Recent suspicious activities:
+- Login attempt from: Nigeria
+- Purchase attempt: $2,847.99
+- Password change request
+
+To prevent unauthorized access, please confirm:
+1. Your full name
+2. Account password  
+3. Credit card number ending in ****
+4. Billing address
+
+This is an automated security measure for your protection. Failure to verify will result in permanent account closure and loss of all Prime benefits.
+
+Act NOW to save your account!
+
+Thank you for your immediate attention to this matter.
+
+Amazon Security Team
+security@amazon-alerts.net
+
+This email was sent to protect your account. Do not ignore this message.
