@@ -1,8 +1,8 @@
-# 🛡️ Phishing Email Detector with GPT
+#  Phishing Email Detector with GPT
 
 An intelligent email security tool that leverages OpenAI's GPT models to detect and analyze phishing attempts in real-time.
 
-## ✨ Features
+##  Features
 
 - **AI-Powered Detection**: Uses GPT-4 for sophisticated phishing pattern recognition
 - **Risk Scoring**: Provides confidence scores (0-100) for phishing likelihood
@@ -12,7 +12,7 @@ An intelligent email security tool that leverages OpenAI's GPT models to detect 
 - **Real-time Analysis**: Fast processing with caching mechanisms
 - **Custom Rules**: Combine AI detection with traditional rule-based filters
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -73,7 +73,7 @@ print(f"Risk Level: {result.risk_level}")
 print(f"Suspicious Elements: {result.threats}")
 ```
 
-## 📊 How It Works
+##  How It Works
 
 The detector uses a multi-layered approach:
 
@@ -83,7 +83,7 @@ The detector uses a multi-layered approach:
 4. **Risk Calculation**: Combines all signals into a final score
 5. **Report Generation**: Creates detailed analysis with recommendations
 
-## 🎯 Detection Capabilities
+##  Detection Capabilities
 
 - **URL Analysis**: Detects suspicious domains, URL shorteners, homograph attacks
 - **Sender Verification**: Identifies spoofed addresses and display name tricks
@@ -91,14 +91,14 @@ The detector uses a multi-layered approach:
 - **Attachment Scanning**: Flags dangerous file types and suspicious attachments
 - **Language Patterns**: Detects grammar anomalies common in phishing
 
-## 📈 Performance
+##  Performance
 
 - Average processing time: <2 seconds per email
 - Accuracy rate: 94.3% on test dataset
 - False positive rate: <3%
 - Supports 100+ emails/minute in batch mode
 
-## 🔧 Configuration
+##  Configuration
 
 Edit `config.json` to customize:
 
@@ -136,7 +136,7 @@ phishing-email-detector/
 └── config.json         # Configuration file
 ```
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 # Run unit tests
@@ -145,8 +145,10 @@ python -m pytest tests/
 # Run with coverage
 python -m pytest --cov=phishing_detector tests/
 ```
+## Screenshot
+<img width="573" height="311" alt="{28FAF4FB-D474-4BA0-BF2B-7E7B8D8050AB}" src="https://github.com/user-attachments/assets/f31295a5-7d32-4260-99a4-eda9ee8ce954" />
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -156,20 +158,20 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/improvement`)
 5. Open a Pull Request
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## ⚠️ Disclaimer
 
-This tool is designed to assist in identifying potential phishing emails but should not be the sole method of email security. Always verify suspicious emails through official channels.
+This tool is designed to assist in identifying potential phishing emails but should not be the only kind of the method of email security. Always verify suspicious emails through official channels.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - OpenAI for GPT API
 - Security research community for phishing datasets
 - Contributors and testers
 
-## 📧 Contact
+## Contact
 
 For questions or support, please open an issue on GitHub
