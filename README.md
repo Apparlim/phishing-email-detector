@@ -149,15 +149,7 @@ python -m pytest --cov=phishing_detector tests/
 <img width="452" height="373" alt="{A0C85D14-DD0F-404A-889F-A816466591A1}" src="https://github.com/user-attachments/assets/7dad877c-70a2-4c0e-b0af-ab5ee9ff4959" />
 
 
-## Contributing
 
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Open a Pull Request
 
 ## License
 
@@ -173,6 +165,4 @@ This tool is designed to assist in identifying potential phishing emails but sho
 - Security research community for phishing datasets
 - Contributors and testers
 
-## Contact
 
-For questions or support, please open an issue on GitHub
