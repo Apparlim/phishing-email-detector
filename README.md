@@ -2,15 +2,11 @@
 
 An intelligent email security tool that leverages OpenAI's GPT models to detect and analyze phishing attempts in real-time.
 
-##  Features
-
-- **AI-Powered Detection**: Uses GPT-4 for sophisticated phishing pattern recognition
-- **Risk Scoring**: Provides confidence scores (0-100) for phishing likelihood
-- **Threat Highlighting**: Identifies and marks suspicious elements like URLs, sender spoofing, urgency tactics
-- **Batch Processing**: Analyze multiple emails efficiently
-- **Detailed Reports**: Generates comprehensive security analysis reports
-- **Real-time Analysis**: Fast processing with caching mechanisms
-- **Custom Rules**: Combine AI detection with traditional rule-based filters
+## Technical Capabilities
+- Integration of GPT-4 for content analysis
+- Pattern matching engine  
+- Reputation and URL validation
+- API for batch processing
 
 ##  Quick Start
 
