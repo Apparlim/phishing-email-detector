@@ -13,7 +13,8 @@ class GPTAnalyzer:
     
     def __init__(self, api_key: str):
         self.api_key = api_key
-        openai.api_key = api_key
+        from openai import OpenAI
+        self.client = OpenAI(api_key=api_key)
         self.cache = {}  # simple cache
         
     def analyze(self, sender: str, subject: str, body: str, 
@@ -31,8 +32,8 @@ class GPTAnalyzer:
         prompt = self._build_prompt(sender, subject, body)
         
         try:
-            # call gpt
-            response = openai.ChatCompletion.create(
+            # call gpt - updated api
+            response = self.client.chat.completions.create(
                 model=config.get('model', 'gpt-4'),
                 messages=[
                     {"role": "system", "content": self._get_system_prompt()},
@@ -43,7 +44,7 @@ class GPTAnalyzer:
             )
             
             # parse response
-            result = self._parse_response(response.choices[0].message['content'])
+            result = self._parse_response(response.choices[0].message.content)
             
             # cache result
             self.cache[cache_key] = result
