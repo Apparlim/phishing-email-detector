@@ -280,6 +280,13 @@ def analyze():
     try:
         data = request.json
         
+        if not data:
+            return jsonify({'error': 'No data provided'}), 400
+            
+        # basic validation
+        if not data.get('sender') or not data.get('body'):
+            return jsonify({'error': 'Sender and body are required'}), 400
+        
         # analyze
         result = detector.analyze_email(
             sender=data.get('sender', ''),
