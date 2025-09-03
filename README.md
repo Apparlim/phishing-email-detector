@@ -154,8 +154,7 @@ python -m pytest --cov=phishing_detector tests/
 
 ## ⚠️ Disclaimer
 
-This tool is designed to assist in identifying potential phishing emails but should not be the only kind of the method of email security. Always verify suspicious emails through official channels.
-
+Although this tool is intended to help detect possible phishing emails, it shouldn't be the exclusive approach to email security.
 ## Acknowledgments
 
 - OpenAI for GPT API
